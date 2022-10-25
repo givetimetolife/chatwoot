@@ -59,7 +59,6 @@ unless Rails.env.production?
     status: :open,
     assignee: user,
     contact: contact,
-    contact_inbox: contact_inbox,
     additional_attributes: {}
   )
 
